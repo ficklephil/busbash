@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html ng-app>
+<head>
+    <link rel='stylesheet' type="text/css" href="css/busbash.css" />
+    <script src="lib/angular.min.js"></script>
+
+    <script type="text/javascript" src="lib/angular-ui-utils/modules/event/event.js"></script>
+    <script type="text/javascript" src="lib/angular-ui-map/src/ui-map.js"></script>
+
+    <script>
+
+        function onGoogleReady() {
+            angular.bootstrap(document.getElementById("map"), ['app.ui-map']);
+        }
+
+        var myAppModule = angular.module('app.ui-map', ['ui.map']);
+    </script>
+
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA5Zhn0d70pprD2K2ogELhYwmJy_N32le4&sensor=false&callback=onGoogleReady">
+    </script>
+
+    <script src='src/controllers/controllers.js'></script>
+    <script src='src/controllers/geolocation.js'></script>
+
+    <!--<script type="text/javascript" src="src/busbash.js">-->
+        <!--</script>-->
+
+
+
+</head>
+<body>
+    <div ng-controller='GeoLocationController'>
+        <button ng-click='locateUserViaGPS()'>Use My Location</button>
+    </div>
+
+
+    <div ng-controller='HelloController'>
+        <p>{{greeting.text}}, World</p>
+    </div>
+
+    <section id="map" ng-controller="MapCtrl" >
+        <div ui-map="myMap" ui-options="mapOptions" class="map-canvas"></div>
+    </section>
+
+
+    <!--<div id='map-canvas' height='400' width='400'></div>-->
+
+</body>
+</html>
