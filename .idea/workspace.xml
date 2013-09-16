@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9606b932-3098-4666-a46f-743265f922e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/busbash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/busbash.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/busbash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllers/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllers/geolocation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/busbash.css" afterPath="$PROJECT_DIR$/css/busbash.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="busbash.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379359891781" ignored="false" />
-    <file path="/index.html" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379360115906" ignored="false" />
+    <file path="/Dummy.txt" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379361374812" ignored="false" />
+    <file path="/index.html" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379361753609" ignored="false" />
     <file path="/busbash.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379356261078" ignored="false" />
-    <file path="/busbash.css" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379360199187" ignored="false" />
+    <file path="/busbash.css" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379361561250" ignored="false" />
     <file path="/controllers.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379357357203" ignored="false" />
     <file path="/geolocation.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379358144515" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +36,16 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="39" selection-start="1171" selection-end="1171" vertical-scroll-proportion="1.1272402">
+            <state line="18" column="135" selection-start="699" selection-end="699" vertical-scroll-proportion="0.4408602">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="busbash.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/busbash.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="5" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -52,7 +54,7 @@
       <file leaf-file-name="demo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="116" selection-start="3093" selection-end="3093" vertical-scroll-proportion="374.5">
+            <state line="49" column="116" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +72,7 @@
       <file leaf-file-name="geolocation.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/geolocation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
+            <state line="26" column="58" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,15 +82,6 @@
         <entry file="file://$PROJECT_DIR$/src/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="46" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="busbash.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/busbash.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,6 +154,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,7 +283,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -469,23 +462,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/geolocation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="46" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/busbash.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -506,14 +485,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="116" selection-start="3093" selection-end="3093" vertical-scroll-proportion="374.5">
+        <state line="49" column="116" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/geolocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="58" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/busbash.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="39" selection-start="1171" selection-end="1171" vertical-scroll-proportion="1.1272402">
+        <state line="18" column="135" selection-start="699" selection-end="699" vertical-scroll-proportion="0.4408602">
           <folding />
         </state>
       </provider>
