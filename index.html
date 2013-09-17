@@ -1,31 +1,18 @@
 <!DOCTYPE HTML>
-<html ng-app>
+<html ng-app='busbash'>
 <head>
+    <!-- CSS -->
     <link rel='stylesheet' type="text/css" href="css/busbash.css" />
+
+    <!-- Libaries -->
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA5Zhn0d70pprD2K2ogELhYwmJy_N32le4&sensor=false"></script>
     <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-google-maps.js"></script>
 
-    <script type="text/javascript" src="lib/angular-ui-utils/modules/event/event.js"></script>
-    <script type="text/javascript" src="lib/angular-ui-map/src/ui-map.min.js"></script>
-
-    <script>
-
-        function onGoogleReady(callback) {
-            angular.bootstrap(document.getElementById("map"), ['ui-map']);
-        }
-
-        var myAppModule = angular.module('app.ui-map', ['ui.map']);
-    </script>
-
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA5Zhn0d70pprD2K2ogELhYwmJy_N32le4&sensor=false">
-    </script>
-
+    <!-- Controllers -->
     <script src='src/controllers/controllers.js'></script>
     <script src='src/controllers/geolocation.js'></script>
-
-    <!--<script type="text/javascript" src="src/busbash.js">-->
-        <!--</script>-->
-
-
+    <script src='src/controllers/google-maps-controller.js'></script>
 
 </head>
 <body>
@@ -33,21 +20,23 @@
         <button ng-click='locateUserViaGPS()'>Use My Location</button>
     </div>
 
-
     <div ng-controller='HelloController'>
         <p>{{greeting.text}}, World</p>
     </div>
 
-    <!--<section id="map" ng-controller="MapCtrl" >-->
-        <!--<div ui-map="myMap" ui-options="mapOptions" class="map-canvas"></div>-->
-    <!--</section>-->
-
-    <div id="map_canvas" ui-map="myMap" class="map"
-         ui-event="{'map-click': 'addMarker($event, $params)', 'map-zoom_changed': 'setZoomMessage(myMap.getZoom())' }"
-         ui-options="mapOptions">
-    </div>
-
-    <!--<div id='map-canvas' height='400' width='400'></div>-->
-
+    <div ng-controller='GoogleMapsController'>
+        <div class="google-map"
+             center="position.coords"
+             zoom="zoomProperty"
+             markers="markersProperty"
+             latitude="clickedLatitudeProperty"
+             longitude="clickedLongitudeProperty"
+             mark-click="true"
+             draggable="true"
+             fit="false"
+             events="eventsProperty"
+             style="height: 400px; width: 100%">
+        </div>
+     </div>
 </body>
 </html>

@@ -21,8 +21,35 @@ function GeoLocationController($scope){
         console.log("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
 
         //postToApi('philip', position.coords.latitude, position.coords.longitude);
-        var lat = position.coords.latitude;
-        var lng = position.coords.longitude;
+        //var lat = position.coords.latitude;
+        //var lng = position.coords.longitude;
+        angular.extend($scope, {
+            centerProperty: {
+                latitude: position.coords.latitude, // initial map center latitude
+                longitude: position.coords.longitude // initial map center longitude
+            },
+            markers: [], // an array of markers,
+            zoom: 8 // the zoom level
+        });
+
+//        $scope.apply({$scope.zoom = 14})
+//        angular.extend($scope, {
+//
+//            position: {
+//                coords: {
+//                    latitude: position.coords.latitude,
+//                    longitude: position.coords.longitude
+//                }
+//            }
+//        });
+
+
+//        $scope.position = {
+//            coords: {
+//                latitude: position.coords.latitude,
+//                longitude: position.coords.longitude
+//            }
+//        }
 
         //sendLocationViaWebSocket(lat, lng);
     }
