@@ -1,9 +1,12 @@
 
-(function () {
-    var module = angular.module("busbash", ["google-maps"]);
-}());
+//(function () {
+//    var module = angular.module("busbash", ["google-maps"]);
+//}());
 
-function GoogleMapsController ($scope, $timeout, $log) {
+
+var GoogleMapsController = function($scope, $timeout, $log) {
+
+    console.log('GoogleMapsController');
 
     // Enable the new Google Maps visuals until it gets enabled by default.
     // See http://googlegeodevelopers.blogspot.ca/2013/05/a-fresh-new-look-for-maps-api-for-all.html
