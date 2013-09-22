@@ -26,6 +26,16 @@ function GeoLocationController($scope, LocationSearchedService){
         //alert("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
         console.log("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
 
+        //probably doesn't work here cause it's not in the same controller
+
+
+//        $scope.center = {
+//            latitude: position.coords.latitude,
+//            longitude: position.coords.longitude
+//        };
+
+        //$scope.apply();
+
         $scope.locationSearchService = LocationSearchedService;
 
         var usersSearchLocation = {
@@ -33,6 +43,8 @@ function GeoLocationController($scope, LocationSearchedService){
             longitude : position.coords.longitude
         };
 
+        LocationSearchedService.setText('Hello')
+        LocationSearchedService.setXCoor(position.coords.latitude);
         LocationSearchedService.setSearchLocation(usersSearchLocation);
 
 
