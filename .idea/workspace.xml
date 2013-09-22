@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9606b932-3098-4666-a46f-743265f922e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/LocationService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/LocationService.js" afterPath="$PROJECT_DIR$/src/service/LocationService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/geolocation.js" afterPath="$PROJECT_DIR$/src/controllers/geolocation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/google-maps-controller.js" afterPath="$PROJECT_DIR$/src/controllers/google-maps-controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -11,15 +11,15 @@
     </list>
     <ignored path="busbash.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379846184125" ignored="false" />
+    <file path="/Dummy.txt" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379864917718" ignored="false" />
     <file path="/index.html" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379845653859" ignored="false" />
     <file path="/busbash.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379356261078" ignored="false" />
     <file path="/busbash.css" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379361561250" ignored="false" />
     <file path="/controllers.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379357357203" ignored="false" />
-    <file path="/geolocation.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379845429953" ignored="false" />
-    <file path="/LocationService.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379845232937" ignored="false" />
-    <file path="/app.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379845804140" ignored="false" />
-    <file path="/google-maps-controller.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379845970140" ignored="false" />
+    <file path="/geolocation.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379863195140" ignored="false" />
+    <file path="/LocationService.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379863287687" ignored="false" />
+    <file path="/app.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379864371953" ignored="false" />
+    <file path="/google-maps-controller.js" changelist="9606b932-3098-4666-a46f-743265f922e8" time="1379863843640" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +39,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="382" selection-end="382" vertical-scroll-proportion="0.34170854">
+            <state line="1" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -51,16 +51,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="57" selection-start="213" selection-end="349" vertical-scroll-proportion="-4.576923">
+            <state line="8" column="40" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google-maps-controller.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="angular-google-maps.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/angular-google-maps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="34" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="google-maps-controller.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/google-maps-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="47" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+            <state line="17" column="34" selection-start="631" selection-end="631" vertical-scroll-proportion="0.4840871">
               <folding />
             </state>
           </provider>
@@ -69,7 +78,7 @@
       <file leaf-file-name="LocationService.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/LocationService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+            <state line="15" column="8" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,7 +87,7 @@
       <file leaf-file-name="geolocation.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/geolocation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="60" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+            <state line="28" column="36" selection-start="1148" selection-end="1176" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,11 +114,11 @@
         <option value="$PROJECT_DIR$/src/busbash.js" />
         <option value="$PROJECT_DIR$/css/busbash.css" />
         <option value="$PROJECT_DIR$/src/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/service/LocationService.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/controllers/geolocation.js" />
         <option value="$PROJECT_DIR$/src/controllers/google-maps-controller.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/app.js" />
       </list>
     </option>
   </component>
@@ -145,7 +154,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,6 +300,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,17 +351,21 @@
       <created>1379355975296</created>
       <updated>1379355975296</updated>
     </task>
+    <task id="LOCAL-00001" summary="Working on getting structure correct">
+      <created>1379846236640</created>
+      <updated>1379846236640</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="774" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20047733" sideWeight="0.670947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20047733" sideWeight="0.670947" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -362,6 +375,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -473,13 +487,6 @@
         <state line="49" column="116" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/angular-google-maps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="396" column="16" selection-start="11203" selection-end="11213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/busbash.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="26" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" />
@@ -492,35 +499,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="57" selection-start="213" selection-end="349" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/geolocation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="60" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/google-maps-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/LocationService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+        <state line="8" column="40" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="382" selection-end="382" vertical-scroll-proportion="0.34170854">
+        <state line="1" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/geolocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="36" selection-start="1148" selection-end="1176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/LocationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="8" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/angular-google-maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="34" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/google-maps-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="631" selection-end="631" vertical-scroll-proportion="0.4840871">
           <folding />
         </state>
       </provider>

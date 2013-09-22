@@ -3,13 +3,15 @@ var searchLocation = angular.module('busBash.services',[]);
 searchLocation.service('LocationSearchedService', function(){
 
     var usersSearchLocation = {
-        latitude : 0,
-        logitude : 0
+        latitude : 45,
+        longitude : -73
     };
 
     return {
         setSearchLocation:function(data){
             usersSearchLocation = data;
+
+            console.log('setting search location to be : ' + usersSearchLocation.latitude + usersSearchLocation.longitude);
         },
         getSearchLocation:function(){
             return usersSearchLocation;

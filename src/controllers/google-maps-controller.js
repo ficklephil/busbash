@@ -4,7 +4,7 @@
 //}());
 
 
-var GoogleMapsController = function($scope, $timeout, $log) {
+var GoogleMapsController = function($scope, $timeout, $log, LocationSearchedService) {
 
     console.log('GoogleMapsController');
 
@@ -12,12 +12,15 @@ var GoogleMapsController = function($scope, $timeout, $log) {
     // See http://googlegeodevelopers.blogspot.ca/2013/05/a-fresh-new-look-for-maps-api-for-all.html
     google.maps.visualRefresh = true;
 
+    console.log('hello ' + LocationSearchedService.getSearchLocation().latitude);
+    console.log('hello ' + LocationSearchedService.getSearchLocation().longitude);
+
     angular.extend($scope, {
 
-        position: {
+       position: {
             coords: {
-                latitude: 45,
-                longitude: -73
+                latitude: LocationSearchedService.getSearchLocation().latitude,
+                longitude: LocationSearchedService.getSearchLocation().longitude
             }
         },
 
@@ -48,4 +51,11 @@ var GoogleMapsController = function($scope, $timeout, $log) {
             }
         }
     });
+
+    function userLocationsChanged(){
+        console.log('location changed');
+    }
+
+   // $scope.$watch(LocationSearchedService.getSearchLocation(), userLocationsChanged);
+
 }

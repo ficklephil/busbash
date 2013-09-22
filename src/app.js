@@ -1,4 +1,5 @@
-angular.module('busBash', ['busBash.services' ]).run(function(LocationSearchedService){
+angular.module('busBash', ['busBash.services','google-maps']).run(function(LocationSearchedService){
+
  console.log('hello' + LocationSearchedService.getSearchLocation().latitude);
     //so lets get a service
 

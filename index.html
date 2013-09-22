@@ -7,14 +7,15 @@
     <!-- Libaries -->
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA5Zhn0d70pprD2K2ogELhYwmJy_N32le4&sensor=false"></script>
     <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-google-maps.js"></script>
 
     <script src="src/service/LocationService.js"></script>
     <script src='src/controllers/geolocation.js'></script>
-    <!--<script src='src/controllers/google-maps-controller.js'></script>-->
+    <script src='src/controllers/google-maps-controller.js'></script>
     <script src="src/app.js"></script>
 
 
-    <!--<script src="lib/angular-google-maps.js"></script>-->
+
 
     <!-- Controllers -->
     <!--<script src='src/controllers/controllers.js'></script>-->
@@ -34,19 +35,19 @@
         <!--<p>{{greeting.text}}, World</p>-->
     <!--</div>-->
 
-    <!--<div ng-controller='GoogleMapsController'>-->
-        <!--<div class="google-map"-->
-             <!--center="position.coords"-->
-             <!--zoom="zoomProperty"-->
-             <!--markers="markersProperty"-->
-             <!--latitude="clickedLatitudeProperty"-->
-             <!--longitude="clickedLongitudeProperty"-->
-             <!--mark-click="true"-->
-             <!--draggable="true"-->
-             <!--fit="false"-->
-             <!--events="eventsProperty"-->
-             <!--style="height: 400px; width: 400px">-->
-        <!--</div>-->
-     <!--</div>-->
+    <div ng-controller='GoogleMapsController'>
+        <div class="google-map"
+             center="position.coords"
+             zoom="zoomProperty"
+             markers="markersProperty"
+             latitude="clickedLatitudeProperty"
+             longitude="clickedLongitudeProperty"
+             mark-click="true"
+             draggable="true"
+             fit="false"
+             events="eventsProperty"
+             style="height: 400px; width: 400px">
+        </div>
+     </div>
 </body>
 </html>
